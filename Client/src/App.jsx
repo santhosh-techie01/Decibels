@@ -1,35 +1,30 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
-function App() {
-  const [count, setCount] = useState(0)
-
+import React from 'react'
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import LandingPage from './Components/LandingPage/LandingPage';
+import Blog from './Components/Blog/Blog';
+import Events from './Components/Events/Events';
+import ExplorePage from './Components/ExplorePage/ExplorePage';
+import Login from './Components/Login/Login';
+import AppWithStyles from './Components/PlaylistsPage/PlaylistsPage';
+import Podcasts from './Components/Podcasts/Podcasts';
+import SettingsPage from './Components/SettingsPage/SettingsPage';
+import SignUp from './Components/SignUp/SignUp';
+const App = () => {
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+  <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<SignUp/>}></Route>
+      <Route path='/Login' element={<Login/>}></Route>
+      <Route path='/Landing' element={<LandingPage/>}></Route>
+     <Route path='/Blog' element={<Blog/>}></Route>
+     <Route path='/Explore' element={<ExplorePage/>}></Route>
+     <Route path='/Events' element={<Events/>}></Route>
+     <Route path='/Playlists' element={<AppWithStyles/>}></Route>
+     <Route path='/Podcasts' element={<Podcasts/>}></Route>
+     <Route path='/Explore' element={<ExplorePage/>}></Route>
+     <Route path='/Settings' element={<SettingsPage/>}></Route>
+    </Routes>
+</BrowserRouter>
   )
 }
-
 export default App
