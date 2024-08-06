@@ -27,8 +27,4 @@ const App = () => {
 </BrowserRouter>
   )
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 0b0fd22644848ef845f7a94ef47fe1127c5d0c4b
 export default App
