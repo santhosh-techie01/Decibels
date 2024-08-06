@@ -1,6 +1,13 @@
+<<<<<<< HEAD
 import React, { useState } from 'react';
 
 const SignUp = () => {
+=======
+// src/Signup.jsx
+import React, { useState } from 'react';
+
+const Signup = () => {
+>>>>>>> 0b0fd22644848ef845f7a94ef47fe1127c5d0c4b
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
   const [passwordError, setPasswordError] = useState('');
@@ -128,14 +135,25 @@ const SignUp = () => {
             required
           />
           {confirmPasswordError && <p style={styles.errorText}>{confirmPasswordError}</p>}
+<<<<<<< HEAD
           <button type="submit" style={styles.signupButton}><a href="/Login">Create</a></button>
         </form>
         <div style={styles.loginText}>
           Already have an account? <a href="/Login" style={styles.loginLink}>Login for Decibels</a>
+=======
+          <button type="submit" style={styles.signupButton}>Next</button>
+        </form>
+        <div style={styles.loginText}>
+          Already have an account? <a href="#" style={styles.loginLink}>Login for Decibels</a>
+>>>>>>> 0b0fd22644848ef845f7a94ef47fe1127c5d0c4b
         </div>
       </div>
     </div>
   );
 };
 
+<<<<<<< HEAD
 export default SignUp;
+=======
+export default Signup;
+>>>>>>> 0b0fd22644848ef845f7a94ef47fe1127c5d0c4b

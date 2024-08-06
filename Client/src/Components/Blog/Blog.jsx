@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 0b0fd22644848ef845f7a94ef47fe1127c5d0c4b
 import React from 'react';
 
 const Blog = () => {
@@ -173,4 +178,8 @@ const Blog = () => {
   );
 };
 
+<<<<<<< HEAD
 export default Blog;
+=======
+export default Blog;
+>>>>>>> 0b0fd22644848ef845f7a94ef47fe1127c5d0c4b

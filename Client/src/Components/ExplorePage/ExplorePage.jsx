@@ -9,10 +9,17 @@ import PlaylistAddIcon from '@mui/icons-material/PlaylistAdd';
 const musicsongs = [
     // Your existing songs array
     { id: 1, title: 'Endi Ippadi', artist: 'Santhosh Narayanan', audioSrc: 'src/assets/Songs/Endi-Ippadi-Santhosh-Narayanan.mp3', image: 'https://a10.gaanacdn.com/gn_img/albums/a7LWBkzbzX/7LWBN7y4Wz/size_l.webp' },
+<<<<<<< HEAD
     { id: 2, title: 'Endha Pakkam', artist: 'Radhul Nambiar, Chinmayi', audioSrc: 'src/assets/Songs/Endha-Pakkam.mp3', image: 'https://a10.gaanacdn.com/gn_img/albums/0wrb4kNWLg/wrb4X4PLbL/size_l.webp' },
     { id: 3, title: 'Yaenadi (From "Adhagappattatu Magajanangalay")', artist: 'D. Imman, Karthik, Shreya Ghoshal', audioSrc: 'src/assets/Songs/Yenadi-Nee-Enna-Ippadi.mp3', image: 'https://a10.gaanacdn.com/gn_img/albums/ZaP37OR3Dy/aP37vw8vKD/size_l.webp' },
     { id: 4, title: 'Aval', artist: 'Santhosh Narayanan, Pradeep', audioSrc: 'src/assets/Songs/Manithan-Aval.mp3', image: 'https://a10.gaanacdn.com/gn_img/albums/oAJbDElKnL/AJbD6xvv3n/size_l.webp' },
     { id: 5, title: 'Goindhammavaala', artist: 'Dhanush', audioSrc: 'src/assets/Songs/Goindhammavaala.mp3', image: 'https://a10.gaanacdn.com/gn_img/albums/dwN39y83DP/wN395vAv3D/size_l_1537963988.webp' },
+=======
+    { id: 2, title: 'Endha Pakkam', artist: 'Radhul Nambiar, Chinmayi', audioSrc: 'src/assets/Songs/Endha Pakkam(PagalWorld.com.so).mp3', image: 'https://a10.gaanacdn.com/gn_img/albums/0wrb4kNWLg/wrb4X4PLbL/size_l.webp' },
+    { id: 3, title: 'Yaenadi (From "Adhagappattatu Magajanangalay")', artist: 'D. Imman, Karthik, Shreya Ghoshal', audioSrc: 'src/assets/Songs/Yenadi-Nee-Enna-Ippadi.mp3', image: 'https://a10.gaanacdn.com/gn_img/albums/ZaP37OR3Dy/aP37vw8vKD/size_l.webp' },
+    { id: 4, title: 'Aval', artist: 'Santhosh Narayanan, Pradeep', audioSrc: 'src/assets/Songs/Manithan-Aval.mp3', image: 'https://a10.gaanacdn.com/gn_img/albums/oAJbDElKnL/AJbD6xvv3n/size_l.webp' },
+    { id: 5, title: 'Goindhammavaala', artist: 'Dhanush', audioSrc: 'src/assets/Songs/Goindhammavaala - SenSongsMp3.Co.mp3', image: 'https://a10.gaanacdn.com/gn_img/albums/dwN39y83DP/wN395vAv3D/size_l_1537963988.webp' },
+>>>>>>> 0b0fd22644848ef845f7a94ef47fe1127c5d0c4b
     { id: 6, title: 'Aandipatti', artist: 'Senthil Dass, Surmukhi Raman', audioSrc: 'src/assets/Songs/Aandipatti Musical Ringtone.mp3', image: 'https://a10.gaanacdn.com/gn_img/albums/0wrb4kNWLg/wrb4X4PLbL/size_l.webp' },
     { id: 7, title: 'Vaaiya Moodi Suma Iru Da', artist: 'Sri Aravind', audioSrc: 'src/assets/Songs/Vaayamoodi-Summa-Iru-Da-Strings-Version.mp3', image: 'https://tse1.mm.bing.net/th?id=OIP.TI1cQTTxy0MsPuXlbbrHGAHaI8&pid=Api&P=0&h=180' },
 ];
@@ -21,7 +28,11 @@ const madeForYouSongs = [
     // Your existing madeForYouSongs array
     { id: 1, title: 'Urugi Urugi', artist: '', audioSrc: 'src/assets/Songs/Urugi Urugi Ponadhadi_64-(MassTamilan).mp3', image: 'https://masstamilan.cool/siteuploads/thumb/sft1/127_resize2x_250x250.webp' },
     { id: 2, title: 'Mudhal Nee Mudivum Nee', artist: 'Sid sriram', audioSrc: 'src/assets/Songs/Mudhal Nee Mudivum Nee_64-(MassTamilan).mp3', image: 'https://masstamilan.cool/siteuploads/thumb/sft1/109_resize2x_250x250.webp' },
+<<<<<<< HEAD
    
+=======
+    
+>>>>>>> 0b0fd22644848ef845f7a94ef47fe1127c5d0c4b
 ];
 
 const newReleasesSongs = [
@@ -32,7 +43,11 @@ const newReleasesSongs = [
 const hindisongs = [
     { id: 1, title: 'Titli', artist: 'Vishal & Shekhar, Chinmayi Sripada', audioSrc: 'src/assets/Songs/Titli_-_Chennai_Express_128_Kbps.mp3', image: 'https://pagal.com.in/assets/images/Titli_-_Chennai_Express_128_Kbps.jpeg' },
     { id: 2, title: 'Kaise Hua', artist: 'Vishal Mishra', audioSrc: 'src/assets/Songs/Endha-Pakkam.mp3', image: 'data:image/jpeg;base64,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' },
+<<<<<<< HEAD
    
+=======
+    
+>>>>>>> 0b0fd22644848ef845f7a94ef47fe1127c5d0c4b
     // Add more new release songs here
 ];
 
@@ -65,7 +80,11 @@ const categories = [
     { title: 'Malayalam', color: '#FF9800', image: 'https://escapehut.org/wp-content/uploads/2022/09/Highest-grossing-Malayalam-movies-by-year.jpg' },
 ];
 
+<<<<<<< HEAD
 const ExplorePage = () => {
+=======
+const App = () => {
+>>>>>>> 0b0fd22644848ef845f7a94ef47fe1127c5d0c4b
     const [page, setPage] = useState('home');
     const [likedSongs, setLikedSongs] = useState([]);
     const [playlist, setPlaylist] = useState([]);
@@ -157,7 +176,11 @@ const ExplorePage = () => {
                                     }
                                     else if (category.title === 'Malayalam') {
                                         setPage('malayalam');
+<<<<<<< HEAD
                                     }
+=======
+                                    } 
+>>>>>>> 0b0fd22644848ef845f7a94ef47fe1127c5d0c4b
                                     else if (category.title === 'Music') {
                                         setPage('music');
                                     }
@@ -633,4 +656,8 @@ const styles = {
     },
 };
 
+<<<<<<< HEAD
 export default ExplorePage;
+=======
+export default App;
+>>>>>>> 0b0fd22644848ef845f7a94ef47fe1127c5d0c4b

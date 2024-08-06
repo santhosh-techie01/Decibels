@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+// src/components/Login.jsx
+>>>>>>> 0b0fd22644848ef845f7a94ef47fe1127c5d0c4b
 import React, { useState } from 'react';
 
 const Login = ({ onLogin }) => {
@@ -162,15 +166,27 @@ const Login = ({ onLogin }) => {
             <input type="checkbox" id="remember" />
             <label htmlFor="remember">Remember me</label>
           </div>
+<<<<<<< HEAD
           <button type="submit" href="/Landing">Log In</button>
         </form>
         <a href="#">Forgot your password?</a>
         <div className="signup-container">
           Don't have an account? <a href="/">Sign up for Decibels</a>
+=======
+          <button type="submit">Log In</button>
+        </form>
+        <a href="#">Forgot your password?</a>
+        <div className="signup-container">
+          Don't have an account? <a href="#">Sign up for Decibels</a>
+>>>>>>> 0b0fd22644848ef845f7a94ef47fe1127c5d0c4b
         </div>
       </div>
     </div>
   );
 };
 
+<<<<<<< HEAD
 export default Login;
+=======
+export default Login;
+>>>>>>> 0b0fd22644848ef845f7a94ef47fe1127c5d0c4b

@@ -152,8 +152,13 @@ const MusicPlayerPage = () => {
     cursor: 'pointer',
   };
 
+<<<<<<< HEAD
   const playIcon = '▶'; // Unicode play icon
   const pauseIcon = '⏸'; // Unicode pause icon
+=======
+  const playIcon = '▶️'; // Unicode play icon
+  const pauseIcon = '⏸️'; // Unicode pause icon
+>>>>>>> 0b0fd22644848ef845f7a94ef47fe1127c5d0c4b
   const backwardIcon = '⏪'; // Unicode backward icon
   const forwardIcon = '⏩'; // Unicode forward icon
 
@@ -211,4 +216,8 @@ const MusicPlayerPage = () => {
   );
 };
 
+<<<<<<< HEAD
 export default MusicPlayerPage;
+=======
+export default MusicPlayerPage;
+>>>>>>> 0b0fd22644848ef845f7a94ef47fe1127c5d0c4b

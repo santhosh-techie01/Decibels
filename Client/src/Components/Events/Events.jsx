@@ -90,7 +90,11 @@ const Events = () => {
   const slidesContainerStyle = {
     display: 'flex',
     transition: 'transform 0.5s ease-in-out',
+<<<<<<< HEAD
     transform: 'translateX(-${currentIndex * 100}%)',
+=======
+    transform: `translateX(-${currentIndex * 100}%)`,
+>>>>>>> 0b0fd22644848ef845f7a94ef47fe1127c5d0c4b
     width: '100%',
     height: '100%',
   };
@@ -207,4 +211,8 @@ const Events = () => {
   );
 }; 
 
+<<<<<<< HEAD
 export default Events;
+=======
+export default Events;
+>>>>>>> 0b0fd22644848ef845f7a94ef47fe1127c5d0c4b
